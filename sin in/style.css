@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0%;
+}
+
+.container {
+    padding: 0%;
+    width: 80%;
+    margin: auto;
+
+    overflow:hidden;
+}
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    float:left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style:none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.sigin-container {
+    align-items:baseline;
+    margin:auto;
+    margin-top: 7%;
+    background: white;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+}
+.sigin-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border:none;
+    margin: auto;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.Sig{
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+ input {
+     width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.sigin-button:hover {
+    background-color: #0056b3;
+}
